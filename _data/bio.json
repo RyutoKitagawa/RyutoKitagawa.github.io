@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Ryuto Kitagawa",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "picture": "https://RyutoKitagawa.github.io/images/molly.png",
+    "email": "ryutok@hawaii.edu",
+    "phone": "(808)681-9762",
+    "website": "https://RyutoKitagawa.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": "717 Paani St.",
+      "postalCode": "96826",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,42 +17,29 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "RyutoKitagawa",
+        "url": "http://github.com/RyutoKitagawa"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
+        "username": "Check",
         "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Algorithms",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Dynamic Programming",
+        "Traveling Salesman Problem"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Artificial Intelligence",
       "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
+        "Neural Networks",
+        "A*"
       ]
     }
   ],

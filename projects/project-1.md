@@ -2,15 +2,14 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: iRoutePlanner
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - iOS App Development
+  - Swift
+summary: My team developed an iOS App that finds the shortest route to take when given a list of addresses the user would like to visit.
 ---
 
 <div class="ui small rounded images">

@@ -3,9 +3,9 @@ layout: project
 type: project
 image: images/micromouse.jpg
 title: iRoutePlanner
-permalink: projects/micromouse
+permalink: projects/iRoutePlanner
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-03-10
 labels:
   - iOS App Development
   - Swift
@@ -19,25 +19,6 @@ summary: My team developed an iOS App that finds the shortest route to take when
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Engineers at the University of Hawaii at Manoa have to do a "Senior Design Project" where they collaborate with a group of people and professors in order to create a product that they believe consumers would utilize.  Project leaders have to design a product, gather a team to implement the project idea, and then present their product to a group of professors.  The product that our project leader decided on was an iPhone application that can take in the user's starting location and then a list of locations that the user would like to visit.  The application will then compute the shortest route the user can take in order to get to each location.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
-
+For this project, I was the lead Graphical User Interface (GUI) designer.  My resposibility was to create a user interface that easily allowed the user to input their current location, and create a list of locations for the purpose stated above.  The user is able to add and delete locations using this app, but there is no functionality to reorder to locations, since the order would be modified later once the application calculates the shortest path.  Once the path is created, the user can look at the directions to each location on Google Maps.  As you visit each location, you can remove them from the list, and the app will recalculate the shortest path the user should take based on the left over locations.  This way, if the user decides to visit a location out of order, it will be taken into consideration (as well as other factors such as time of day and traffic).

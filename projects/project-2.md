@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/RaytheonLogo.jpg
 title: Raytheon Internship Project
-permalink: projects/vacay
+permalink: projects/raytheon
 # All dates must be YYYY-MM-DD format!
 date: 2019-06-20
 labels:

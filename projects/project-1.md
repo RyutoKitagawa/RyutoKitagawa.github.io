@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/iRoutePlannerAppIcon.png
 title: iRoutePlanner
 permalink: projects/iRoutePlanner
 # All dates must be YYYY-MM-DD format!
@@ -11,13 +11,6 @@ labels:
   - Swift
 summary: My team developed an iOS App that finds the shortest route to take when given a list of addresses the user would like to visit.
 ---
-
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
 
 Engineers at the University of Hawaii at Manoa have to do a "Senior Design Project" where they collaborate with a group of people and professors in order to create a product that they believe consumers would utilize.  Project leaders have to design a product, gather a team to implement the project idea, and then present their product to a group of professors.  The product that our project leader decided on was an iPhone application that can take in the user's starting location and then a list of locations that the user would like to visit.  The application will then compute the shortest route the user can take in order to get to each location.
 

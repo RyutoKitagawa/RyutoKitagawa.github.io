@@ -23,4 +23,4 @@ Engineers at the University of Hawaii at Manoa have to do a "Senior Design Proje
 
 For this project, I was the lead Graphical User Interface (GUI) designer.  My resposibility was to create a user interface that easily allowed the user to input their current location, and create a list of locations for the purpose stated above.  The user is able to add and delete locations using this app, but there is no functionality to reorder to locations, since the order would be modified later once the application calculates the shortest path.  Once the path is created, the user can look at the directions to each location on Google Maps.  As you visit each location, you can remove them from the list, and the app will recalculate the shortest path the user should take based on the left over locations.  This way, if the user decides to visit a location out of order, it will be taken into consideration (as well as other factors such as time of day and traffic).
 
-<a ref = "https://github.com/bmwfire-tsp/senior-design-project">Github Repo</a>
+<a ref = "https://github.com/bmwfire-tsp/senior-design-project/">Github Repo</a>

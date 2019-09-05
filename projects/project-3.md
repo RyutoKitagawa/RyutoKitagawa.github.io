@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/ACMLogo.png
 title: Algorithm's Club President
-permalink: projects/cotton
+permalink: projects/acm
 # All dates must be YYYY-MM-DD format!
 date: 2019-08-10
 labels:

@@ -10,7 +10,7 @@ labels:
   - C/C++
   - Python
   - Internship
-summary: A project that I developed during my summer internship at Raytheon
+summary: My summer internship at Raytheon's Space and Airborne Systems
 ---
 
 <img src = "../images/F16.jpg" alt = "F-16 Fighter Jet">

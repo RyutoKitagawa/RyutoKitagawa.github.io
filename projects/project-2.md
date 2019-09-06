@@ -13,7 +13,7 @@ labels:
 summary: A project that I developed during my summer internship at Raytheon
 ---
 
-<img src = "../images/F16.jpg" alt = "F-16">
+<img src = "../images/F16.jpg" alt = "F-16 Fighter Jet">
 
 During my internship at Raytheon, I was working on a project for their space and airborne systems.  Due to the nature of the internship, I can't go into too much detail about what the project I had worked on was about.  However, I gained a lot of project experience during my two and half months as a software engineering intern at this company.
 

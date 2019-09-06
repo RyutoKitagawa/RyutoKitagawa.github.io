@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/RaytheonLogo.jpg
-title: Raytheon Internship Project
+title: Raytheon Internship
 permalink: projects/raytheon
 # All dates must be YYYY-MM-DD format!
 date: 2019-06-20

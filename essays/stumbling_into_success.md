@@ -16,7 +16,7 @@ In high school, I felt really lost.  I wasn't sure what I wanted out of life yet
 
 As I was signing for the classes I wanted to take in junior year, I noticed that they were offering a Computer Science class.  The school had never offered this class before, so it had caught my eye.  I had a little experience programming in the past, but I had never taken a real dive into the field.  I was intrigued, and decided that I wanted to take the class, just to see how things would go.  I had no idea how deep this rabbit hole was going to be, and I certainly wasn't prepared for the journey it was going to take me on.
 
-<img src = "../images/CompterProgramming.jpg" alt = "Computer Programming">
+<img src = "../images/ComputerProgramming.jpg" alt = "Computer Programming">
 
 Junior year came, I took the class for a year, and I had loved every second of it.  I still can't fully describe what I like about the class, but I throughly enjoyed every assignment we did in the class, and I was ready to take more.  The next year, they were going to offer an AP Computer Science class, so I signed up for that class without hesitation.  Senior year came and went in a very similar fashion to Junior year.  I took the class, and I wanted to learn more.  So the obvious decision for me when it came time to pick a major was Computer Science.
 

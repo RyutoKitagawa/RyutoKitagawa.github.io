@@ -11,7 +11,7 @@ labels:
 
 ## Javascript vs Python
 
-<img src = "../images/python_logo.png" alt = "Python"> <img src = "../images/javascript_logo.png" alt = "Javascript">
+<img src = "../images/javascript_logo.png" alt = "Javascript"> <img src = "../images/python_logo.png" alt = "Python">
 
 One of the first things I noticed when using the Javascript language is how similar it was to Python.  Unlike Java, Javascript didn't require the creation of a Main class to run the program.  Unlike C/C++, creating function declarations isn't necessary.  Python shares these properties along with many others such as: not requiring type declarations for variables, allowing arrays to contain values of different data types, and automatically passing objects and arrays into functions by reference.  
 

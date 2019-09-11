@@ -38,6 +38,39 @@ However, this answer will only help the poster if the origin of their problem is
 ## How Most People Should Ask Questions
 
 In contrast, this is how questions should be asked:
-```My HTML5 game has some background music that uses Howler.js in "html5" mode, which apparently triggers Chrome for Android's media playback notifications. This means a notification appears while the user has my game open in any tab:
+```
+My HTML5 game has some background music that uses Howler.js in "html5" mode, which apparently triggers Chrome for Android's media playback notifications. This means a notification appears while the user has my game open in any tab:
 ```
 <img src = "../images/AskingQuestionsSecondPost.png" alt = "Photo of the issue">
+
+```
+The game is a good citizen and pauses the music while the tab is not in focus, so there is no need for this notification. It's even actively confusing, because the user can pause and resume the game's background music without being in the game. But I can't find a way to get rid of the notification.
+
+I tried calling stop() instead of pause() or mute() on the music object, but this doesn't remove the notification.
+
+Looking a bit deeper, I discovered the experimental MediaSession API (W3C draft) which supposedly can be used to control the notification. But, if I understand correctly, it offers no way to disable it outright!
+
+I tried this at the start of my application:
+```
+
+```javascript
+if (typeof navigator.mediaSession == 'object') {
+  navigator.mediaSession.playbackState = 'none'
+}
+```
+
+```
+However, this only sets the declared playback state (in spec terminology). And setting that to 'none' has no effect:
+
+----------------------------------------------------------------
+The actual playback state is computed in the following way:
+
+If the declared playback state is "playing", return "playing".
+Otherwise, return the guessed playback state.
+----------------------------------------------------------------
+
+And the guessed playback state is something I have no control over; it's derived by the browser based on the state of <audio> elements on the page.
+
+Is there a possibility that I'm overlooking, or is this just an oversight in the current MediaSession specification?
+```
+

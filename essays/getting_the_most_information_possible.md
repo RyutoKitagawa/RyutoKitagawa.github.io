@@ -83,3 +83,21 @@ on the page.
 Is there a possibility that I'm overlooking, or is this just an oversight in the current MediaSession specification?
 ```
 
+This question gives the reader far more information, and is much more likely to get a detailed response that gives the original poster information about possible solutions and how those solutions would work.  While a major contributing factor is the extra information, the main reason that the response is likely to be much better is how clear the amount of effort the original poster put into their question.  They had tried several solutions on their own, and once they couldn't come up with a solution, they had attempted to see if there were some online resources available that would answer their question.  Unfortunately, their effort didn't provide a solution, so the user eventually posted a question on the forum.  However, he made it clear at this point that he had done enough background research to warrant a response from more experienced users in the community, even if his question may seem to be simple, or basic to most.  
+
+The response that the question had received is:
+
+```
+This may be what you are looking for.
+
+If you can make the music loop within 5 second (like in NES days), notification won't show it said.
+
+Else, use Web Audio API without "audio" element. So, use a stream.
+
+Otherwise, "Dismiss media notifications with audio.src = ''."
+```
+Note: <a href = "https://developers.google.com/web/updates/2015/07/media-notifications">This</a> is the hyper link to the page reffered to in the response.
+
+While this response is roughly the same length as the response to the other question, this one is far more specifc, and gives the original poster a resource that helps guide them towards their "journey" in finding the answer.  Part of the enjoyment of software engineering is finding the answer on your own.  Even if one needs some guidance towards the answer, they should be the ones that ultimately stumbles upon the solution.  This way, they learn more from the process and are more likely to be able to come up with solutions for problems that are of a similar nature.
+
+Learning is important, and everyone should strive to learn as much as they can.  However, the responsibility does not lie solely in the teacher.  The students must also be just as willing to do the necessary homework.  Especially when you consider that these "teachers" aren't being paid to educate others, it's very important that as a poster, you need to show the rest of the community that you are willing to do what it takes to be helped.  And the best way that this can be done is by doing your own research before hand, and trying to find the solution before you have to resort to asking others for help.  Along the way, you may find the answers you were looking for and no longer need the help.  Eventually, you may even become one of the people that answers questions on these forums.  And there you'll see that some questions are worth answering, and some simply aren't.

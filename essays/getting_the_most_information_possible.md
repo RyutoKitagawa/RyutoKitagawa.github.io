@@ -13,7 +13,7 @@ labels:
 Gathering information is easier now than it ever has been before.  Ever since the internet became a world wide phenomenon, people from all across the globe could find other people that shared their interests and exchange knowledge and information, making everyone else smarter for it.  Unfortunately, the internet is still a new invention, so a majority of the people in the world still hasn't adapted to the culture of the internet.  Thus, when people who haven't assimilated to internet culture find themselves in forums, making posts, and asking questions, they can often come across as uninformed or lazy to the veterans in the forum.  And the newcomers may feel as if they were treated poorly and come away with the impression that people on the internet are rude and unhelpful.
 
 ## How Most People Ask Questions
-Most people tend to ask questions like this:
+Most people tend to ask questions like <a href = "https://stackoverflow.com/questions/33756680/unknown-app-version-in-itunes-connect">this</a>:
 
 ```
 New version of my app is 1.2. But in "Sales and Trends" in iTunes Connect I see "unknown" app version. Also new reviews not showing in
@@ -41,7 +41,7 @@ However, this answer will only help the poster if the origin of their problem is
 
 ## How Most People Should Ask Questions
 
-In contrast, this is how questions should be asked:
+In contrast, <a href = "https://stackoverflow.com/questions/55727452/how-to-get-rid-of-media-playing-notification-shown-by-chrome-on-android">this</a> is how questions should be asked:
 ```
 My HTML5 game has some background music that uses Howler.js in "html5" mode, which apparently triggers Chrome for Android's media
 playback notifications. This means a notification appears while the user has my game open in any tab:

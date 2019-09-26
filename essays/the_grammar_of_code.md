@@ -55,9 +55,9 @@ for (let b = 0; b < 20; b++) {
   console.log(b % 2);
 }
 
-for(let      c = 0;c <       5; c +  +)
+for(let      c = 0;c <       5; c ++)
 {
-console.log(c)}
+console.log(c);}
 ```
 For loops a and b look very similar, and thus I have an easier time modifying those for loops into the format that I need.  However, for loop c looks like an inconsisten mess, and I would have a difficult time recreating this loop for when I need to write my own code.
 

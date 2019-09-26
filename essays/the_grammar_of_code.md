@@ -1,5 +1,5 @@
 ---
-layout: essa
+layout: essay
 type: essay
 title: The Grammar of Code
 # All dates must be YYYY-MM-DD format!

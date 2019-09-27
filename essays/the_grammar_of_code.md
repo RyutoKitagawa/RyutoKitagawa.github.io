@@ -37,13 +37,13 @@ else{
 
 Clearly, the code without any style is more difficult to read.  Some inexperienced programmers may believe that code that is difficult to read doesn't matter since the code will be run by the computer anyways.  However, other people have to read the code you wrote as well.  There are mainly two situatios where this occurs.
 
-##Collaboration With Others
+## Collaboration With Others
 Stereotypically, programmers are working in dimly lit basements, completely isolated from the rest of the world.  However, software engineers need to work with an entire team of other programmers in order to accomplish their goals in a reasonable amount of time.  The website for Amazon's site could not have realistically been developed by a single person, and this holds true for other software such as: Siri, Google, and Github.  When working with a larger team of people, you need to be able to write code that other people will be able to quickly and easily understand the logic behind what was written.  The underlying logic of the code may be complex, and competing coding styles can simply make trying to understand complex code a more difficult ordeal.
 
-##Future Updates
+## Future Updates
 Now let's assume that you created a project with a group of people without following some sort of coding standard.  Now what if you want to update the software 10 years from now.  You aren't going to remember the logic that you had for the code you wrote, and the documentation may not be enough to get you back up to speed on the program.  Therefore, you would have to resort to rereading the code, and this can become a much bigger problem if you have a difficult time understanding the code that you had written for yourself.
 
-##Benefits to Coding Standards
+## Benefits to Coding Standards
 Even though there are a lot of cons to not using coding standards, there are also some benefits you gain from learning coding standards.  One of the most prominent ones I've experienced is learning a programming language faster.  When there's a specific structure in how the code is written, then it's much easier to pick up the syntax that is necessary for the language to run since the code often has a format that I can follow, and almost always consistently looks the same.
 
 ```javascript

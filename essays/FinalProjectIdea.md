@@ -17,3 +17,5 @@ The user should be able to hover over the different locations, and a display of 
 There can be different functions for different types of users.  There are students, who are able to save their favorite locations, their preferences on what to buy, and possibly preordering food.  There are also food trucks and other food establishments who may want to promote new food items, and other things.  There are also guests who simply want a quick way to find a place to eat.
 
 This app should also be accompanied by a mobile app, since most students would generally want a portable map of the place that they want to eat, and would generally be more convenient than lugging your laptop all around campus while you try to find someplace to eat.
+
+Written by: Ryuto Kitagawa, Frendy Lio

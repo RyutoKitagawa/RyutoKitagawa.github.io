@@ -8,7 +8,7 @@ labels:
   - Software Engineering
 ---
 
-<img src="https://spectrum.ieee.org/image/MjkzMzk5NA.octet-stream" alt="Software Engineering" align="left">
+<img src="https://optimaldesignco.com/wp-content/uploads/2018/12/hero-software-engineering.png" alt="Software Engineering" align="left">
 
 Software engineering is the process of developing software using engineering concepts.  This broad definition of software engineering doesn't even begin to encompass the many lessons that I learned throughout my time in my software engineering class at the University of Hawaii.  However, my biggest takeaways from this class was adhering to coding standards and getting accustomed to using a development environment.
 

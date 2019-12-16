@@ -9,7 +9,7 @@ labels:
   - Frameworks
 ---
 
-<img src="../images/powerdrill.jpg" alt="Power Drill">
+<img src="../images/powerdrill.jpg" alt="Power Drill" align="left">
 
 I often like to think of  coding as building a house.  It's important to make sure that the foundation of the house is good, the structure is able to support the rest of the house, and the entire house comes out asthetically pleasing so that other people will enjoy looking at it.  In software engineering, you need to make sure that the language you are using is best suited for the task at hand, that you have planned out the structure of the code and what convention you plan on following (Object Oriented, Procedural, Functional, and Imperative), and the code is crafted in such a way that other people will be able to easily understand the logic behind your program.  However, like building a house, crafting a project entirely with the basic tool kit that you are given in the beginning is extremely difficult.  One can't be expected to build a house using only wood, a hammer, and nails.
 

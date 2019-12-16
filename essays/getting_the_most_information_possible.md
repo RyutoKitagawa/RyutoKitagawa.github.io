@@ -8,7 +8,7 @@ labels:
   - Gathering Information
 ---
 
-<img src = "../images/AskingQuestions.jpg" alt = "Asking Questions">
+<img src = "../images/AskingQuestions.jpg" alt = "Asking Questions" style="display: inline;">
 
 Gathering information is easier now than it ever has been before.  Ever since the internet became a world wide phenomenon, people from all across the globe could find other people that shared their interests and exchange knowledge and information, making everyone else smarter for it.  Unfortunately, the internet is still a new invention, so a majority of the people in the world still hasn't adapted to the culture of the internet.  Thus, when people who haven't assimilated to internet culture find themselves in forums, making posts, and asking questions, they can often come across as uninformed or lazy to the veterans in the forum.  And the newcomers may feel as if they were treated poorly and come away with the impression that people on the internet are rude and unhelpful.
 

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/iRoutePlannerAppIcon.png
+image: images/HubForClubsLogo.png
 title: Hub For Clubs
 permalink: projects/HubForClubs
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,7 @@ labels:
 summary: My group created a 
 ---
 
-<img src="../images/HubForClubs.png" alt="Landing Page" align=left>
+<img src="../images/HubForClubsLanding.png" alt="Landing Page" align=left>
 
 The website that we created is to help students find clubs that are suited for them.  Currently, the only to find clubs at the University of Hawaii at Manoa is to look through a long list of clubs and judge them based solely on their club name.  However, with our app, clubs can be found based on interests that the user has.  This way clubs that are of interst to the user can be found more easily.  Clubs are also associated with a list of tags such as Academic, Art, and Technology.  Users are then able to narrow down the clubs that they are interested in.  Club leaders are also able to make announcements to users in order to advertise events to people that may be interested.  
 

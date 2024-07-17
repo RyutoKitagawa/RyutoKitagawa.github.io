@@ -125,7 +125,11 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; white-space: nowrap; }
+a { 
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline;
+}
 
 li { list-style: none; }
 

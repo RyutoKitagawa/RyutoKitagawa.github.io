@@ -125,12 +125,7 @@
   box-sizing: border-box;
 }
 
-a { 
-  text-decoration: none;
-  white-space: nowrap;
-  display: inline;
-  text-decoration-line: none;
-}
+a { text-decoration: none; }
 
 li { list-style: none; }
 

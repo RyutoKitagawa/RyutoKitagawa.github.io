@@ -1,285 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ryuto Kitagawa</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Ryuto Kitagawa
+  </title>
+  <link href="./assets/images/logo.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="./assets/css/style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/main-photo.png" alt="Ryuto Kitagawa" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Ryuto Kitagawa">Ryuto Kitagawa</h1>
-
-          <p class="title">PhD Candidate</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:ryutok@ignoreme-uci.edu" class="contact-link">ryutok@<span style="display:none;">ignoreme-</span>uci.edu</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Irvine, California, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link active" onclick="window.location.href='index.html'">About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" onclick="window.location.href='resume.html'">Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" onclick="window.location.href='blog.html'">Blog</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p stlye="display: inline">
-            I'm a PhD candidate in Computer Science at the
-            University of California, Irvine
-            in the 
-            <a href="https://ics.uci.edu/~theory/" style="display: inline">
-              Center for Algorithms and Theory of Computation
-            </a>.
-            My academic advisor is
-            <a href="https://ics.uci.edu/~goodrich/" style="display: inline">
-              Dr. Michael Goodrich
-            </a>.
-          </p>
-
-          <p>
-            My current research interests are in the field of designing algorithms
-            and data structures for massively parallel computing systems.
-            I am currently working on several projects related to GPU
-            programming, from both a theoretical and experimental perspective.
-            I also have an interest in data sketching algorithms, which are
-            the summarization of large data sets in a small amount of space
-            (sadly this has nothing to do with drawing, which is not a strong
-            suite of mine).
-          </p>
-
-          <p>
-            Outside of research, I consider programming to be one of my main
-            hobbies.
-            I am a big fan of Neovim as a coding environment and enjoy tweaking
-            my setup during my free time.
-            I also spend a non-significant amount of time trying to out
-            different operating systems and window managers.
-            My current setup is based heavily around NixOS, which uses a
-            unique declarative approach to configuration management.
-            The two main features that I enjoy is the rollback feature, which
-            helps me recover from my own mistakes, and the ability to port
-            my configuration to other machines with minimal effort.
-            For more information about NixOS as a whole, I recommend checking
-            out
-            <a href="https://www.youtube.com/watch?v=CwfKlX3rA6E" style="display: inline">
-              this youtube video
-            </a>
-            by No Boilerplate.
-          </p>
-
-          <p>
-            I do have a life outside of computers, I swear.
-            I enjoy playing the guitar and ukulele, and have been playing
-            at a novice level for the past 8 years.
-            I have recently begun going on walks around my neighborhood and
-            taking photos of random things I see.
-            I also enjoy cooking and have been recently trying various
-            recipes of Mexican cuisine.
-          </p>
-
-        </section>
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What I'm Doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-              <div class="service-content-box">
-
-                <h4 class="h4 service-item-title">IBLT</h4>
-
-                <p class="service-item-text">
-                  A data structure which is an extremely space effecient way to
-                  perform the signed symmetric set difference operation.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Accountable Storage</h4>
-
-                <p class="service-item-text">
-                  The accountable storage problem is an interesting application
-                  of the IBLT data structure,
-                  which allows some client to securely store data on a server
-                  while being able to recover any lost data.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Parallel Search Trees</h4>
-
-                <p class="service-item-text">
-                  Looking at how to design parallel search trees that are
-                  efficient on massively parallel systems.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">CPU-GPU Models</h4>
-
-                <p class="service-item-text">
-                  Heterogeneous comupting systems are becoming more common,
-                  and having theoretical models to understand and analyze
-                  these systems is important.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
+   <aside class="sidebar" data-sidebar="">
+    <div class="sidebar-info">
+     <figure class="avatar-box">
+      <img alt="Ryuto Kitagawa" src="./assets/images/main-photo.png" width="80"/>
+     </figure>
+     <div class="info-content">
+      <h1 class="name" title="Ryuto Kitagawa">
+       Ryuto Kitagawa
+      </h1>
+      <p class="title">
+       PhD Candidate
+      </p>
+     </div>
+     <button class="info_more-btn" data-sidebar-btn="">
+      <span>
+       Show Contacts
+      </span>
+      <ion-icon name="chevron-down">
+      </ion-icon>
+     </button>
     </div>
-
+    <div class="sidebar-info_more">
+     <div class="separator">
+     </div>
+     <ul class="contacts-list">
+      <li class="contact-item">
+       <div class="icon-box">
+        <ion-icon name="mail-outline">
+        </ion-icon>
+       </div>
+       <div class="contact-info">
+        <p class="contact-title">
+         Email
+        </p>
+        <a class="contact-link" href="mailto:ryutok@ignoreme-uci.edu">
+         ryutok@
+         <span style="display:none;">
+          ignoreme-
+         </span>
+         uci.edu
+        </a>
+       </div>
+      </li>
+      <li class="contact-item">
+       <div class="icon-box">
+        <ion-icon name="location-outline">
+        </ion-icon>
+       </div>
+       <div class="contact-info">
+        <p class="contact-title">
+         Location
+        </p>
+        <address>
+         Irvine, California, USA
+        </address>
+       </div>
+      </li>
+     </ul>
+    </div>
+   </aside>
+   <div class="main-content">
+    <nav class="navbar">
+     <ul class="navbar-list">
+      <li class="navbar-item">
+       <button class="navbar-link" onclick="window.location.href='index.html'">
+        About
+       </button>
+      </li>
+      <li class="navbar-item">
+       <button class="navbar-link" onclick="window.location.href='resume.html'">
+        Resume
+       </button>
+      </li>
+      <li class="navbar-item">
+       <button class="navbar-link" onclick="window.location.href='blog.html'">
+        Blog
+       </button>
+      </li>
+     </ul>
+    </nav>
+    <article class="about active" data-page="about">
+     <header>
+      <h2 class="h2 article-title">
+       About me
+      </h2>
+     </header>
+     <section class="about-text">
+      <p stlye="display: inline">
+       I'm a PhD candidate in Computer Science at the
+              University of California, Irvine
+              in the
+       <a href="https://ics.uci.edu/~theory/" style="display: inline">
+        Center for Algorithms and Theory of Computation
+       </a>
+       .
+              My academic advisor is
+       <a href="https://ics.uci.edu/~goodrich/" style="display: inline">
+        Dr. Michael Goodrich
+       </a>
+       .
+      </p>
+      <p>
+       My current research interests are in the field of designing algorithms
+              and data structures for massively parallel computing systems.
+              I am currently working on several projects related to GPU
+              programming, from both a theoretical and experimental perspective.
+              I also have an interest in data sketching algorithms, which are
+              the summarization of large data sets in a small amount of space
+              (sadly this has nothing to do with drawing, which is not a strong
+              suite of mine).
+      </p>
+      <p>
+       Outside of research, I consider programming to be one of my main
+              hobbies.
+              I am a big fan of Neovim as a coding environment and enjoy tweaking
+              my setup during my free time.
+              I also spend a non-significant amount of time trying to out
+              different operating systems and window managers.
+              My current setup is based heavily around NixOS, which uses a
+              unique declarative approach to configuration management.
+              The two main features that I enjoy is the rollback feature, which
+              helps me recover from my own mistakes, and the ability to port
+              my configuration to other machines with minimal effort.
+              For more information about NixOS as a whole, I recommend checking
+              out
+       <a href="https://www.youtube.com/watch?v=CwfKlX3rA6E" style="display: inline">
+        this youtube video
+       </a>
+       by No Boilerplate.
+      </p>
+      <p>
+       I do have a life outside of computers, I swear.
+              I enjoy playing the guitar and ukulele, and have been playing
+              at a novice level for the past 8 years.
+              I have recently begun going on walks around my neighborhood and
+              taking photos of random things I see.
+              I also enjoy cooking and have been recently trying various
+              recipes of Mexican cuisine.
+      </p>
+     </section>
+     <!--
+            - service
+          -->
+     <section class="service">
+      <h3 class="h3 service-title">
+       What I'm Doing
+      </h3>
+      <ul class="service-list">
+       <li class="service-item">
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">
+          IBLT
+         </h4>
+         <p class="service-item-text">
+          A data structure which is an extremely space effecient way to
+                    perform the signed symmetric set difference operation.
+         </p>
+        </div>
+       </li>
+       <li class="service-item">
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">
+          Accountable Storage
+         </h4>
+         <p class="service-item-text">
+          The accountable storage problem is an interesting application
+                    of the IBLT data structure,
+                    which allows some client to securely store data on a server
+                    while being able to recover any lost data.
+         </p>
+        </div>
+       </li>
+       <li class="service-item">
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">
+          Parallel Search Trees
+         </h4>
+         <p class="service-item-text">
+          Looking at how to design parallel search trees that are
+                    efficient on massively parallel systems.
+         </p>
+        </div>
+       </li>
+       <li class="service-item">
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">
+          CPU-GPU Models
+         </h4>
+         <p class="service-item-text">
+          Heterogeneous comupting systems are becoming more common,
+                    and having theoretical models to understand and analyze
+                    these systems is important.
+         </p>
+        </div>
+       </li>
+      </ul>
+     </section>
+    </article>
+   </div>
   </main>
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+  <script src="./assets/js/script.js">
+  </script>
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module">
+  </script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+ </body>
 </html>

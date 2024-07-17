@@ -125,7 +125,10 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { 
+  text-decoration: none;
+  color: var(--orange-yellow-crayola);
+}
 
 li { list-style: none; }
 
